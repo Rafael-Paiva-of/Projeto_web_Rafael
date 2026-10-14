@@ -1,0 +1,58 @@
+.formulario,.tabela{
+    background-color: red;
+    color: white;
+    text-align:left;
+}
+.botao{
+        background-color:red;
+        color: white;
+        padding: 1px 20px;
+        border: none;
+        cursor: pointer;
+        transition: 0.3s;
+        text-decoration: none;
+        font-size: 18px;    
+}
+.botao:hover{
+        background-color: rgb(255, 120, 120);
+}
+.cadastro {
+
+    width: 350px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+.cadastro form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cadastro input,
+.cadastro select {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.cadastro label {
+    display: block;
+}
+
+.cadastro button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+}
+h2{
+        text-align: center;
+        text-decoration:underline;
+}
+.cadastro {
+    position: relative;
+}
+

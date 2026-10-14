@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>for_cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="formulario">
+        <h1>Farmácia Vida & Saúde</h1>
+            <nav>
+                <a class="botao" href="tabela.html">Ver Estoque </a>
+                <a class="botao" href="formulario.html">Cadastra Remédio</a>
+            </nav>
+    </div>
+        <h2>Cadastra remédio</h2>
+
+
+        <div class="cadastro">
+        <form>
+<!-- codigo do remedio -->
+            <label for="cod">Código:</label>
+            <input type="text"
+                        id="cod"
+                        placeholder="Insira o código">
+<!-- nome do remedio -->
+            <label for="nome">Nome do remédio:</label>
+            <input type="text"
+                        placeholder="Remédio"
+                        required>
+<!-- a categoria do remedio -->
+            <label for="tel">Categoria:</label>
+            <select id="categorias" required>
+                <option value="cate">Categorias</option>
+
+                <option value="Analgésico">Analgésico</option>
+
+                <option value="	Antibiotico">Antibiotico</option>
+
+                <option value="Anti-inflamatórios">Anti-inflamatórios</option>
+
+                <option value="Anti-hipertensivos">Anti-hipertensivos</option>
+
+                <option value="Antidiabéticos">Antidiabéticos</option>
+            </select>
+<!-- preço do remedio -->
+            <label for="preço">Preço:</label>
+            <input type="number"
+            min="0"
+            step="0.01"
+            placeholder="$19,99"
+            required>
+<!-- quantidade do remedio -->
+            <label for="qtd">Quantidade</label>
+            <input type="number"
+            placeholder="ex:99">
+<!-- botão de cadastro -->
+            <button type="submit">
+                Cadastrar
+            </button>       
+        </form>
+        </div>
+
+</body>
+</html>
