@@ -46,7 +46,8 @@
 
           <div class="campo">
             <label for="unidade">Unidade de Medida:</label>
-            <select id="unidade" name="unidade">
+            <select id="unidade" name="unidade" required>
+              <option value="">Selecione...</option>
               <option value="un">Unidade (UN)</option>
               <option value="kg">Quilo (KG)</option>
               <option value="lt">Litro (LT)</option>
@@ -75,6 +76,23 @@
         <div class="campo">
           <label for="validade">Data de Validade:</label>
           <input type="date" id="validade" name="validade" required>
+        </div>
+      </fieldset>
+      <!-- outras informaçõees -->
+      <fieldset>
+        <legend>Outras informaçóes</legend>
+        <div class="linha-dupla">
+          <div class="campo">
+            <label for="fornecedor">Fornecedor do produto:</label>
+            <select name="fornecedor" id="fornecedor" required>
+              <option value="">Selecione...</option>
+              <option value="for1">For 1</option>
+              <option value="for2">For 2</option>
+              <option value="for3">For 3</option>
+              <option value="for4">For 4</option>
+            </select>
+          </div>
+          
         </div>
       </fieldset>
 
