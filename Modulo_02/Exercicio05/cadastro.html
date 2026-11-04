@@ -46,7 +46,7 @@
 
           <div class="campo">
             <label for="unidade">Unidade de Medida:</label>
-            <select id="unidade" name="unidade" required>
+            <select id="unidade" name="unidade">
               <option value="">Selecione...</option>
               <option value="un">Unidade (UN)</option>
               <option value="kg">Quilo (KG)</option>
@@ -92,8 +92,21 @@
               <option value="for4">For 4</option>
             </select>
           </div>
-          
-        </div>
+          <div>
+            <label for="">Características do Produto:</label>
+            <div class="opcoes-checkbox">
+                <label>
+                  <input type="checkbox" name="caracteristicas[]" value="perecivel" >
+                    Perecível
+                </label>
+
+                <label>
+                      <input type="checkbox" name="caracteristicas[]" value="importado">
+                      Importado
+                </label>
+
+            </div>
+          </div>
       </fieldset>
 
       <button type="submit">Salvar Produto no Sistema</button>

@@ -195,6 +195,24 @@ legend {
   flex: 1;
 }
 
+.opcoes-checkbox {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.opcoes-checkbox label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.opcoes-checkbox input {
+    width: auto;
+    margin: 0;
+}
+
 label {
   display: block;
   font-weight: bold;
