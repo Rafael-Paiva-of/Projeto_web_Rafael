@@ -44,3 +44,38 @@ input {
   width: 100%;
   padding: 6px;
 }
+
+tbody tr:nth-child(even){
+ background-color: #f1f5f9;
+}
+
+.badge-alerta{
+ background-color: #ef4444;
+ color: white;
+ padding: 4px 8px;
+ border-radius: 12px;
+}
+a:hover{
+ background-color:#000080;
+}
+a{
+  background-color:#0284c7;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.vitrine{
+gap: 15px;
+display: flex;
+flex-wrap: wrap;
+}
+
+.card-remedio{
+border: 2px solid #0284c7;
+}
+@media (max-width: 600px) {
+  .vitrine { flex-direction: colum; }
+}
