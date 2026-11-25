@@ -1,4 +1,4 @@
-matriculas ={101,102,103,104}
+matriculas ={101,102,103,102}
 matriculas.add (105)
-matriculas.remove(101)
+matriculas.remove(103)
 print(matriculas)
